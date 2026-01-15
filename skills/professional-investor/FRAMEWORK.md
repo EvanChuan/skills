@@ -237,7 +237,7 @@ Q: 我想建立完整的投資組合策略？
 - 建議操作（積極買進/逢低買進/持有/逢高減碼/賣出）
 - 安全邊際百分比
 
-**模組：** `valuation-analysis/SKILL.md`（待建立）
+**模組：** `valuation-analysis/SKILL.md`
 
 ---
 
