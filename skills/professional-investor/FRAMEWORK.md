@@ -210,7 +210,7 @@ Q: 我想建立完整的投資組合策略？
 - 關鍵風險提示
 - 可能驅動的事件
 
-**模組：** `equity-fundamental-analysis/SKILL.md`（待建立）
+**模組：** `equity-fundamental-analysis/SKILL.md`
 
 ---
 
