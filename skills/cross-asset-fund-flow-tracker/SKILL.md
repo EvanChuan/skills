@@ -36,7 +36,7 @@ last_updated: 2026-01-18
 | 白銀 | SLV | SI (COMEX Silver) | 工業 + 貴金屬雙重屬性 |
 | 原油 | USO | CL (WTI Crude Oil) | 能源、通膨指標 |
 | 銅 | COPX | HG (COMEX Copper) | 工業金屬、經濟領先指標 |
-| 比特幣 | BITO | BTC (CME Bitcoin) | 加密資產、數位黃金 |
+| 比特幣 | IBIT | BTC (CME Bitcoin) | 加密資產、數位黃金 |
 | 房地產/REITs | VNQ | 無直接對應 | 不動產、利率敏感 |
 | 美元指數 | DXY | DX (ICE US Dollar Index) | 全球儲備貨幣 |
 | 日圓 | FXY | JPY (CME Japanese Yen) | 避險貨幣 |
@@ -221,7 +221,7 @@ ETF: GLD
 | 美國公債 10 年 | IEF | TY | 10-Year U.S. Treasury Notes - CBOT |
 | 美股大型科技 (近似) | QQQ | NQ | Nasdaq-100 Stock Index - CME |
 | 美股小型股 | IWM | RTY | Russell 2000 Stock Index - ICE Futures U.S. |
-| 比特幣 | BITO | BTC | Bitcoin - Chicago Mercantile Exchange |
+| 比特幣 | IBIT | BTC | Bitcoin - Chicago Mercantile Exchange |
 
 > **註**：部分資產（如 VTV、AGG、HYG）無直接對應的 COT 合約，這些資產僅依賴 ETF 資金流與機構評級。
 
@@ -464,7 +464,7 @@ COT 信號：強烈做多 → +0.5 × 0.15 = 0.075
 | 白銀 | SLV | 淨流入 $400M | +3.1% | +6.8% | +18.5% | ✅ 做多 | OW (+1.33) | **+2** |
 | 原油 | USO | 中立 | -0.5% | -2.1% | +3.2% | ⚠️ 中性 | N (-0.33) | **0** |
 | 銅 | COPX | 淨流出 $-200M | -1.8% | -3.5% | +1.2% | ❌ 做空 | UW (-0.67) | **-1** |
-| 比特幣 | BITO | 淨流入 $300M | +2.5% | +8.5% | +25.3% | ⚠️ 中性 | N (+0.33) | **+1** |
+| 比特幣 | IBIT | 淨流入 $300M | +2.5% | +8.5% | +25.3% | ⚠️ 中性 | N (+0.33) | **+1** |
 | 房地產/REITs | VNQ | 淨流出 $-100M | -0.8% | -1.5% | +0.8% | 無對應 | UW (-0.67) | **-0.5** |
 | 美元指數 | DXY | 中立 | -0.3% | -1.2% | -2.5% | ❌ 做空 | UW (-1) | **-1.5** |
 | 日圓 | FXY | 淨流入 $200M | +1.2% | +2.8% | +5.5% | ✅ 做多 | OW (+1) | **+1.5** |
@@ -658,7 +658,7 @@ COT 信號：強烈做多 → +0.5 × 0.15 = 0.075
    - **日圓（FXY）**：資金流入 + COT 轉為淨多 + 機構 OW，避險貨幣需求升溫。
 
 3. **分歧資產（需謹慎觀察）**：
-   - **比特幣（BITO）**：ETF 有淨流入、價格高檔震盪，但 COT 大戶觀望、機構評級分歧，顯示市場對加密資產仍缺乏共識。
+   - **比特幣（IBIT）**：ETF 有淨流入、價格高檔震盪，但 COT 大戶觀望、機構評級分歧，顯示市場對加密資產仍缺乏共識。
    - **原油（USO）**：資金流與 COT 均呈中性，機構評級分散，短期方向不明。
 
 ***
